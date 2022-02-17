@@ -1,0 +1,44 @@
+.content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.layout {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  row-gap: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .layout {
+    row-gap: 30px;
+  }
+}
+
+.tagLine {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .tagLine {
+    font-weight: bolder;
+    font-size: 72px;
+    line-height: 80px;
+  }
+}
+
+.secondTitle {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .secondTitle {
+    font-size: 24px;
+  }
+}
