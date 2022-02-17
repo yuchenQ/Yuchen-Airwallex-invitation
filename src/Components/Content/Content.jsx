@@ -1,4 +1,6 @@
 import React from 'react';
+import { ModalForm } from './ModalForm';
+import { postRegistration } from '../../apis/postRegistration';
 import styles from './Content.module.css';
 
 const Content = () => {
@@ -13,7 +15,7 @@ const Content = () => {
         <div className={styles.secondTitle}>
           Be the first to know when we launch.
         </div>
-        <div>modal</div>
+        <ModalForm onSubmitForm={postRegistration} />
       </section>
     </main>
   );
