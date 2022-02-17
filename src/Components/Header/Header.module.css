@@ -1,0 +1,30 @@
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #F1F1F1;
+  border: 1px solid lightgray;
+  padding-left: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding-left: 48px;
+  }
+}
+
+.title {
+  font-size: large;
+  font-weight: bold;
+  padding: 12px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: x-large;
+    font-weight: bold;
+    padding: 24px 0;
+  }
+}
+
