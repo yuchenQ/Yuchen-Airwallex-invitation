@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Airwallex - Frontend Code Challenge
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Browser Compatibility
+Target: > 0.25%, not dead
+Tested: Chrome, Safari
+
+## Issues
+
+Some Component is not 100% covered, because of avoiding duplicated test
 
 ## Available Scripts
 
