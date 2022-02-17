@@ -7,7 +7,7 @@ import 'antd/dist/antd.css';
 
 function App() {
   return (
-    <Page>
+    <Page dataTestId="app">
       <Header />
       <Content />
       <Footer/>
