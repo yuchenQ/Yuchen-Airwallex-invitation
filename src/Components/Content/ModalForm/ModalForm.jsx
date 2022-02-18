@@ -68,7 +68,7 @@ const ModalForm = ({ onSubmitForm }) => {
             rules={[
               {
                 type: 'string',
-                min: 5,
+                min: 3,
                 required: true,
               },
             ]}
